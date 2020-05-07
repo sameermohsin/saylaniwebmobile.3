@@ -1,0 +1,599 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    background-color: #f7f8fd;
+}
+
+.topbar {
+    display: inline;
+}
+
+#bar {
+    background-color: #316dc3;
+    width: 100%;
+    height: 48px;
+}
+
+#text {
+    font-size: 15.3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: -24px;
+}
+
+#img {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#buttons {
+    position: absolute;
+    top: 12px;
+    display: inline;
+    padding-left: 920px;
+}
+
+#b1,
+#b2,
+#b3 {
+    color: #427900;
+    display: inline;
+    padding: 6px 10px;
+    border: solid 1px #427900;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    top: -6px;
+}
+
+#fb {
+    margin-bottom: -18px;
+    margin-left: 62px;
+    width: 15px;
+    cursor: pointer;
+}
+
+#tw {
+    margin-bottom: -19px;
+    margin-left: 30px;
+    width: 15px;
+    cursor: pointer;
+}
+
+#ins {
+    margin-bottom: -21px;
+    margin-left: 24px;
+    width: 22px;
+    cursor: pointer;
+}
+
+#yt {
+    margin-bottom: -19px;
+    margin-left: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#wa {
+    margin-bottom: -20px;
+    margin-left: 22px;
+    width: 19px;
+    cursor: pointer;
+}
+
+#mid {
+    height: 66px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 3em;
+}
+
+#logo {
+    width: 190px;
+    margin-left: 62px;
+    margin-top: 6px;
+}
+
+#navbar {
+    position: relative;
+    top: -90px;
+    color: black;
+    display: flex;
+    list-style-type: none;
+    margin-left: 540px;
+    margin-top: 50px;
+}
+
+#navbar a {
+    text-decoration: none;
+    position: relative;
+    padding: 10px 14px;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+#navbar a.clr {
+    border-radius: 48px;
+    background-color: #316dc3;
+    color: white;
+}
+
+#navbar a:hover {
+    border-radius: 48px;
+    background-color: #316dc3;
+    color: white;
+}
+
+#gallery {
+    width: 100%;
+    position: relative;
+    top: 64px;
+}
+
+#m {
+    font-family: Arial;
+    color: white;
+    font-size: 14px;
+    margin: 100px 10px 0px 30px;
+    padding-top: 5px;
+    background-color: #316dc3;
+    width: 95%;
+    height: 30px;
+}
+
+#int {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.green {
+    color: #00f113;
+}
+
+.darkblue {
+    color: blue;
+}
+
+.blue {
+    color: #316dc3;
+}
+
+.darkgreen {
+    color: #427900;
+}
+
+#fav {
+    display: block;
+    margin: 16px auto 0px auto;
+    width: 160px;
+}
+
+#para {
+    color: #858688;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: justify;
+    width: 954px;
+    display: block;
+    margin: 24px auto 0px auto;
+}
+
+#bottom {
+    margin: 100px 0px 0px 0px;
+    background-color: #2755e8;
+    width: 100%;
+    height: 300px;
+}
+
+.align {
+    width: 48px;
+}
+
+#f {
+    margin: 90px 0px 0px 160px;
+}
+
+#fa {
+    margin: 90px 0px 0px 260px;
+}
+
+#me {
+    margin: 90px 0px 0px 260px;
+}
+
+#ed {
+    margin: 90px 0px 0px 210px;
+}
+
+.range {
+    display: inline;
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+    top: 10px;
+    color: white;
+}
+
+#food {
+    margin-left: 126px;
+}
+
+#family {
+    margin-left: 204px;
+}
+
+#medical {
+    margin-left: 220px;
+}
+
+#education {
+    margin-left: 146px;
+}
+
+.content {
+    display: inline;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    color: white;
+}
+
+.monthly {
+    color: #15f733;
+}
+
+#foods {
+    margin-left: 56px;
+}
+
+#families {
+    margin-left: 36px;
+}
+
+#medicals {
+    margin-left: 94px;
+}
+
+#educations {
+    margin-left: 80px;
+}
+
+#images {
+    display: inline-block;
+}
+
+.imag {
+    cursor: pointer;
+    margin: 60px 164px 0px 164px;
+}
+
+.six {
+    display: inline-block;
+    position: relative;
+    top: -160px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #316dc3;
+}
+
+#os {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+#wel {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 314px;
+}
+
+#ml {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 354px;
+}
+
+#dss {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 148px;
+}
+
+#rop {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 314px;
+}
+
+#edus {
+    display: inline-block;
+    margin-top: 160px;
+    margin-left: 326px;
+}
+
+#mission {
+    color: #316dc3;
+    margin: 120px 0px 0px 60px;
+    font-size: 24px;
+}
+
+#dash {
+    margin-left: 60px;
+}
+
+#hep {
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+#hos {
+    cursor: pointer;
+    margin-left: 240px;
+}
+
+#it {
+    cursor: pointer;
+    margin-top: 36px;
+    margin-left: 68px;
+}
+
+#thar {
+    cursor: pointer;
+    position: relative;
+    top: 16px;
+    margin-left: 228px;
+}
+
+#hp {
+    position: relative;
+    top: 2px;
+    margin-left: 18px;
+}
+
+#hs {
+    position: relative;
+    top: 2px;
+    margin-left: 14px;
+}
+
+#itl {
+    position: relative;
+    top: 20px;
+    margin-left: 18px;
+}
+
+#tpk {
+    position: relative;
+    top: 18px;
+    margin-left: 14px;
+}
+
+#ue {
+    font-weight: bold;
+    color: #316dc3;
+    font-size: 24px;
+    position: relative;
+    top: -216px;
+    margin-left: 840px;
+}
+
+#dash2 {
+    position: relative;
+    top: -210px;
+    margin-left: 840px;
+}
+
+#mt {
+    position: relative;
+    font-family: Arial;
+    color: #858688;
+    font-size: 14px;
+    margin-top: -200px;
+    margin-left: 840px;
+    background-color: white;
+    width: 240px;
+}
+
+.top {
+    cursor: pointer;
+    color: #316dc3;
+}
+
+.transparent {
+    position: relative;
+    margin: 10px 60px 0px 60px;
+    top: 40px;
+    opacity: 1;
+    display: inline;
+}
+
+#i1 {
+    width: 220px;
+}
+
+#i2 {
+    width: 220px;
+}
+
+#i3 {
+    width: 220px;
+}
+
+#i4 {
+    width: 220px;
+}
+
+#i5 {
+    width: 220px;
+}
+
+#i1:hover {
+    opacity: 0.3;
+}
+
+#i2:hover {
+    opacity: 0.3;
+}
+
+#i3:hover {
+    opacity: 0.3;
+}
+
+#i4:hover {
+    opacity: 0.3;
+}
+
+#i5:hover {
+    opacity: 0.3;
+}
+
+#foot {
+    background-color: #25272e;
+    width: 100%;
+    height: 422px;
+}
+
+#link {
+    color: white;
+    position: relative;
+    top: 100px;
+    margin-left: 500px;
+}
+
+#connect {
+    color: white;
+    position: relative;
+    top: 80px;
+    margin-left: 880px;
+}
+
+.cons {
+    font-size: 15px;
+    font-family: Arial;
+    color: #aaaaab;
+}
+
+#cons1 {
+    position: relative;
+    margin-left: 60px;
+    top: 90px;
+}
+
+#cons2 {
+    position: relative;
+    margin-left: 30px;
+    top: 0px;
+}
+
+#international {
+    display: inline-block;
+    margin-left: 48px;
+}
+
+#copy {
+    position: absolute;
+    top: 3572px;
+    left: 80px;
+    color: white;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+#uan {
+    margin-left: 64px;
+    position: relative;
+    top: -226px;
+}
+
+#cell {
+    margin-left: -26px;
+    position: relative;
+    top: -182px;
+}
+
+#usa {
+    margin-left: -26px;
+    position: relative;
+    top: -138px;
+}
+
+#uk {
+    margin-left: -26px;
+    position: relative;
+    top: -92px;
+}
+
+#itn {
+    margin-left: 150px;
+    position: relative;
+    top: -226px;
+}
+
+#mails {
+    margin-left: -203px;
+    position: relative;
+    top: -50px;
+}
+
+#line {
+    margin-left: 404px;
+    position: absolute;
+    margin-top: -310px;
+}
+
+#fbf {
+    cursor: pointer;
+    margin-left: 796px;
+    position: absolute;
+    margin-top: -316px;
+}
+
+#twf {
+    cursor: pointer;
+    margin-left: 828px;
+    position: absolute;
+    margin-top: -315px;
+}
+
+#isf {
+    cursor: pointer;
+    margin-left: 863px;
+    position: absolute;
+    margin-top: -316px;
+}
+
+#ytf {
+    cursor: pointer;
+    margin-left: 899px;
+    position: absolute;
+    margin-top: -315px;
+}
+
+footer {
+    display: inline-block;
+    background-color: #316dc3;
+    position: absolute;
+    top: 3650px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+}
+
+#copy {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana;
+}

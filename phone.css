@@ -1,0 +1,605 @@
+@media only screen and (max-width:360px) {
+    .zoom {
+        zoom: 100%;
+    }
+    body {
+        background-color: #f7f8fd;
+    }
+    .topbar {
+        display: inline;
+    }
+    #bar {
+        background-color: #316dc3;
+        width: 360px;
+        height: 120px;
+    }
+    #text {
+        position: relative;
+        top: 3em;
+        display: block;
+        font-size: 10.6px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+    }
+    #img {
+        align-content: center;
+        list-style-type: none;
+        display: inline-flex;
+    }
+    #buttons {
+        position: absolute;
+        top: 5em;
+        display: block;
+        justify-content: center;
+        padding-left: 30px;
+    }
+    #b1,
+    #b2,
+    #b3 {
+        color: #427900;
+        display: inline;
+        padding: 6px 10px;
+        border: solid 1px #427900;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+        top: -6px;
+        right: 12px;
+    }
+    #fb {
+        margin-bottom: -18px;
+        margin-left: 76px;
+        width: 15px;
+        cursor: pointer;
+    }
+    #tw {
+        margin-bottom: -19px;
+        margin-left: 30px;
+        width: 15px;
+        cursor: pointer;
+    }
+    #ins {
+        margin-bottom: -21px;
+        margin-left: 24px;
+        width: 22px;
+        cursor: pointer;
+    }
+    #yt {
+        margin-bottom: -19px;
+        margin-left: 20px;
+        width: 20px;
+        cursor: pointer;
+    }
+    #wa {
+        margin-bottom: -20px;
+        margin-left: 22px;
+        width: 19px;
+        cursor: pointer;
+    }
+    #mid {
+        height: 66px;
+        background-color: white;
+        width: 100%;
+        position: relative;
+        top: 1em;
+    }
+    #logo {
+        position: relative;
+        width: 200px;
+        margin: 0px 80px;
+    }
+    #navbar {
+        position: absolute;
+        top: -90px;
+        color: black;
+        display: flex;
+        list-style-type: none;
+        margin-left: 5px;
+        margin-top: 166px;
+    }
+    #navbar a {
+        text-decoration: none;
+        position: relative;
+        padding: 6px 5px;
+        color: black;
+        text-align: center;
+        font-size: 10px;
+        font-family: Arial;
+    }
+    #navbar a.clr {
+        border-radius: 48px;
+        background-color: #316dc3;
+        color: white;
+    }
+    #navbar a:hover {
+        border-radius: 48px;
+        background-color: #316dc3;
+        color: white;
+    }
+    #gallery {
+        width: 360px;
+        height: 200px;
+        position: relative;
+        top: 64px;
+    }
+    #m {
+        font-family: Arial;
+        color: white;
+        font-size: 8px;
+        margin: 80px auto 0px auto;
+        padding-top: 5px;
+        background-color: #316dc3;
+        width: 360px;
+        height: 18px;
+    }
+    #int {
+        margin-top: 70px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .green {
+        color: #00f113;
+    }
+    .darkblue {
+        color: blue;
+    }
+    .blue {
+        color: #316dc3;
+    }
+    .darkgreen {
+        color: #427900;
+    }
+    #fav {
+        display: block;
+        margin: 16px auto 0px auto;
+        width: 160px;
+    }
+    #para {
+        color: #858688;
+        font-size: 12px;
+        font-family: Arial;
+        text-align: justify;
+        width: 300px;
+        display: block;
+        margin: 24px 30px
+    }
+    #bottom {
+        margin: 100px 0px 0px 0px;
+        background-color: #2755e8;
+        width: 360px;
+        height: 830px;
+    }
+    .align {
+        width: 60px;
+    }
+    .mup {
+        position: relative;
+        top: -140px
+    }
+    #f {
+        position: relative;
+        margin: 60px 150px;
+    }
+    #fa {
+        position: relative;
+        margin: 60px 150px;
+    }
+    #me {
+        position: relative;
+        top: 10px;
+        margin: 60px 150px;
+    }
+    #ed {
+        position: relative;
+        top: 20px;
+        margin: 60px 150px;
+    }
+    .range {
+        display: inline;
+        font-weight: bold;
+        font-size: 32px;
+        position: relative;
+        top: 0px;
+        color: white;
+    }
+    #food {
+        position: relative;
+        top: -600px;
+        margin-left: 126px;
+    }
+    #family {
+        position: relative;
+        top: -420px;
+        margin-left: -110px;
+    }
+    #medical {
+        position: relative;
+        top: -270px;
+        margin-left: 130px;
+    }
+    #education {
+        position: relative;
+        top: -136px;
+        margin-left: 118px;
+    }
+    .content {
+        font-weight: bold;
+        font-size: 16px;
+        position: relative;
+        top: -128px;
+        width: 360px;
+        color: white;
+    }
+    .monthly {
+        color: #15f733;
+    }
+    #foods {
+        position: relative;
+        top: -690px;
+        left: -12px;
+        text-align: center;
+    }
+    #families {
+        position: relative;
+        top: -524px;
+        left: 12px;
+        text-align: center;
+    }
+    #medicals {
+        position: relative;
+        top: -350px;
+        left: 0px;
+        text-align: center;
+    }
+    #educations {
+        position: relative;
+        top: -200px;
+        text-align: center;
+    }
+    .imag {
+        display: inline;
+        position: relative;
+        cursor: pointer;
+        top: -400px;
+    }
+    #sad {
+        display: inline-block;
+        margin-top: 450px;
+        margin-left: 135px;
+    }
+    #we {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 135px;
+    }
+    #ms {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 135px;
+    }
+    #dw {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 135px;
+    }
+    #ro {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 135px;
+    }
+    #eds {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 135px;
+    }
+    .six {
+        display: inline;
+        position: relative;
+        top: -1670px;
+        font-weight: bold;
+        font-size: 16px;
+        color: #316dc3;
+    }
+    #os {
+        display: inline-block;
+        margin-top: 340px;
+        margin-left: 110px;
+    }
+    #wel {
+        display: inline-block;
+        margin-top: 170px;
+        margin-left: 142px;
+    }
+    #ml {
+        display: inline-block;
+        margin-top: 180px;
+        margin-left: 142px;
+    }
+    #dss {
+        display: inline-block;
+        margin-top: 160px;
+        margin-left: 120px;
+    }
+    #rop {
+        display: inline-block;
+        margin-top: 170px;
+        margin-left: 140px;
+    }
+    #edus {
+        display: inline-block;
+        margin-top: 170px;
+        margin-left: 132px;
+    }
+    #mission {
+        color: #316dc3;
+        position: relative;
+        top: -1690px;
+        margin: 0px 0px 0px 10px;
+        font-size: 18px;
+    }
+    #dash {
+        position: relative;
+        top: -1700px;
+        margin-left: 10px;
+    }
+    #hep {
+        background-color: white;
+        padding: 10px;
+        cursor: pointer;
+        position: relative;
+        top: -1594px;
+        margin-left: 10px;
+    }
+    #hos {
+        background-color: white;
+        padding: 10px;
+        cursor: pointer;
+        position: relative;
+        top: -1590px;
+        left: -230px;
+    }
+    #it {
+        background-color: white;
+        padding: 10px;
+        cursor: pointer;
+        position: relative;
+        top: -1638px;
+        left: -60px;
+    }
+    #thar {
+        background-color: white;
+        padding: 10px;
+        cursor: pointer;
+        position: relative;
+        top: -1690px;
+        left: -220px;
+    }
+    #hp {
+        background-color: white;
+        padding: 18px;
+        padding-left: 3px;
+        padding-right: 190px;
+        font-size: 15px;
+        position: relative;
+        left: -23px;
+        top: -1592px;
+    }
+    #hs {
+        background-color: white;
+        padding: 18px;
+        padding-left: 3px;
+        padding-right: 130px;
+        font-size: 15px;
+        position: relative;
+        left: 45px;
+        top: -1616px;
+    }
+    #itl {
+        display: block;
+        background-color: white;
+        padding: 18px;
+        padding-left: 6px;
+        padding-right: 190px;
+        font-size: 15px;
+        position: relative;
+        left: 39px;
+        top: -1692px;
+    }
+    #tpk {
+        background-color: white;
+        padding: 18px;
+        padding-left: 6px;
+        padding-right: 170px;
+        font-size: 15px;
+        position: relative;
+        left: 40px;
+        top: -1726px;
+    }
+    #ue {
+        font-weight: bold;
+        color: #316dc3;
+        font-size: 16px;
+        position: relative;
+        top: -1715px;
+        margin-left: 10px;
+    }
+    #dash2 {
+        position: relative;
+        top: -1712px;
+        margin-left: 9px;
+    }
+    #mt {
+        position: relative;
+        font-family: Arial;
+        color: #858688;
+        font-size: 14px;
+        margin-top: -1700px;
+        margin-left: 10px;
+        background-color: white;
+        width: 368px;
+    }
+    .top {
+        cursor: pointer;
+        color: #316dc3;
+    }
+    .transparent {
+        position: relative;
+        margin-left: 70px;
+        top: 40px;
+        opacity: 1;
+        display: inline;
+    }
+    #i1 {
+        width: 220px;
+    }
+    #i2 {
+        margin-left: 70px;
+        width: 220px;
+    }
+    #i3 {
+        margin-left: 70px;
+        width: 220px;
+    }
+    #i4 {
+        margin-left: 70px;
+        width: 220px;
+    }
+    #i5 {
+        margin-left: 70px;
+        width: 220px;
+    }
+    #i1:hover {
+        cursor: pointer;
+        opacity: 0.3;
+    }
+    #i2:hover {
+        cursor: pointer;
+        opacity: 0.3;
+    }
+    #i3:hover {
+        cursor: pointer;
+        opacity: 0.3;
+    }
+    #i4:hover {
+        cursor: pointer;
+        opacity: 0.3;
+    }
+    #i5:hover {
+        cursor: pointer;
+        opacity: 0.3;
+    }
+    #link {
+        font-size: 16px;
+        color: white;
+        position: relative;
+        top: 420px;
+        margin-left: 10px;
+    }
+    #connect {
+        font-size: 16px;
+        color: white;
+        position: relative;
+        top: 450px;
+        margin-left: 10px;
+    }
+    .cons {
+        font-size: 14px;
+        font-family: Arial;
+        color: #aaaaab;
+    }
+    #cons1 {
+        position: relative;
+        margin-left: 10px;
+        top: 60px;
+    }
+    #cons2 {
+        position: relative;
+        margin-left: 20px;
+        top: 0px;
+    }
+    #international {
+        display: inline-block;
+        margin-left: 40px;
+    }
+    #uan {
+        margin-left: 6px;
+        position: relative;
+        top: -359px;
+    }
+    #cell {
+        margin-left: -26px;
+        position: relative;
+        top: -316px;
+    }
+    #usa {
+        margin-left: -27px;
+        position: relative;
+        top: -275px;
+    }
+    #uk {
+        margin-left: -26px;
+        position: relative;
+        top: -234px;
+    }
+    #itn {
+        margin-left: 132px;
+        position: relative;
+        top: -359px;
+    }
+    #mails {
+        margin-left: -186px;
+        position: relative;
+        top: -192px;
+    }
+    #line {
+        margin-left: -64px;
+        position: relative;
+        top: 24px;
+    }
+    #fbf {
+        cursor: pointer;
+        margin-left: -300px;
+        position: relative;
+        top: 100px;
+    }
+    #twf {
+        cursor: pointer;
+        margin-left: -2px;
+        position: relative;
+        top: 100px;
+    }
+    #isf {
+        cursor: pointer;
+        margin-left: -5.6px;
+        position: relative;
+        top: 101px;
+    }
+    #ytf {
+        cursor: pointer;
+        margin-left: -5px;
+        position: relative;
+        top: 101px;
+    }
+    footer {
+        background-color: #316dc3;
+        position: absolute;
+        top: 5864px;
+        left: 0px;
+        width: 360px;
+        height: 40px;
+    }
+    #copy {
+        position: relative;
+        top: 6px;
+        left: 76px;
+        color: white;
+        font-size: 12px;
+        font-family: Verdana;
+    }
+    #foot {
+        background-color: #25272e;
+        width: 360px;
+        height: 520px;
+    }
+}
